@@ -1,0 +1,16 @@
+{
+  "name": "karabiner-config",
+  "description": "karabiner config in karabiner.ts",
+  "private": true,
+  "scripts": {
+    "build": "tsx src/index.ts",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "karabiner.ts": "^1.35.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
